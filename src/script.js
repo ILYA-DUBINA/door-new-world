@@ -28,7 +28,7 @@ fbxLoader.load(
       luz.position.set(-0.8, 2, 5);  
 
       const scaleFolder = gui.addFolder('Регулирование дверной коробки')
-      scaleFolder.add(base.scale, 'z').min(0).max(5).step(0.1).name('высота');
+      scaleFolder.add(base.scale, 'z').min(0.3).max(5).step(0.1).name('высота');
       scaleFolder.add(base.scale, 'x').min(0.3).max(5).step(0.1).name('ширина');  
       const scaleFolderTwo = gui.addFolder('Регулирование дверного полотна')
       scaleFolderTwo.add(porta.scale, 'z').min(0.5).max(5).step(0.1).name('высота');
